@@ -1,0 +1,51 @@
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: black;
+  padding: 40px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: rgb(176, 153, 123);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  color: #222;
+}
+
+.card h2 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 15px 30px;
+  background-color: #222;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav a.active {
+  color: orange;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 5px;
+}

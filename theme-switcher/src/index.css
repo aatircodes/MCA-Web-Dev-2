@@ -1,0 +1,20 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+
+#root{
+  width: 80%;
+  height: 80%;
+  border: 2px solid black;
+  background-color: aliceblue;
+}

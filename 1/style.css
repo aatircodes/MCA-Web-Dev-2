@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+
+}
+
+#qt {
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 10px;;
+}
+
+#bt1 {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+}

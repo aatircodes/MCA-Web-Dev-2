@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    width: 500px;
+    height: 800px;
+    background-color: rgb(55, 53, 53);
+    border-radius: 20px;
+}
+
+#screen {
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 90%;
+    height: 80px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 80px 20px 20px;
+}
+
+.btns {
+    padding: 45px;
+}
